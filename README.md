@@ -20,9 +20,9 @@ After having compiled the project you can run Teenage Roomba Turtle by using the
 > If you’re on *nix, make sure that the script is executable (otherwise do a chmod 755 teenage-roomba-turtle.sh).
 
 ```bash
-$ ./teenage-roomba-turtle.sh input2.txt
-1 4
-0
+$ ./teenage-roomba-turtle.sh examples/circleInput.txt
+0 0
+8
 $ ./teenage-roomba-turtle.sh
 1 3
 1
@@ -31,9 +31,9 @@ $ ./teenage-roomba-turtle.sh
 You can also directly use `java -jar target/teenage-roomba-turtles-1.0.jar` to run the application:
 
 ```bash
-$ java -jar target/teenage-roomba-turtles-1.0.jar input2.txt
-1 4
-0
+$ java -jar target/teenage-roomba-turtles-1.0.jar examples/circleInput.txt
+0 0
+8
 $ java -jar target/teenage-roomba-turtles-1.0.jar
 1 3
 1
